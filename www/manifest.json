@@ -1,0 +1,15 @@
+{
+    "name": "Clock",
+    "description": "Big clock application",
+    "version": "0.0.1",
+    "minimum_chrome_version": "37",
+    "manifest_version": 2,
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "permissions": [
+        "fullscreen"
+    ]
+}
